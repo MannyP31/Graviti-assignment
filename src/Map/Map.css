@@ -1,0 +1,18 @@
+.mapstyle {
+    width: 50%;
+    height: 50%;
+}
+.mapcontainer {
+    /* border: solid 2px red; */
+    overflow: hidden !important;
+    width: 200px;
+    position: absolute;
+    height: 70.9% !important;
+    width: 40.4% !important;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+.remove-global-div-styling div {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}

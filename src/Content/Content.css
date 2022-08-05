@@ -1,0 +1,124 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    /* overflow:-moz-hidden-unscrollable; */
+}
+
+.icon {
+    width: auto;
+    height: 80px;
+    float: left;
+    /* border: solid 2px black; */
+}
+.navbar {
+    /* border: solid 1px grey; */
+    height: 12%;
+}
+.darker {
+    font-weight:1000;
+}
+.heading {
+    height: 12%;
+    /* border: solid 1px grey; */
+    color: rgb(3, 3, 146);
+    background-color: rgb(230, 235, 246);
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.body {
+    height: 80%;
+    /* border: solid 1px grey; */
+    background-color: rgb(230, 235, 246);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.input {
+ height: 90%;
+ /* border: solid 1px grey; */
+ width:40%
+}
+.mapping {
+height: 90%;
+/* border: solid 1px grey; */
+width:40%;
+
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+   text-align: left;
+   padding-left: 180px;
+   padding-top: 20px;
+   border: 0px !important;
+
+}
+.takeinput {
+    width: 30%;
+    height: 50%;
+    font-weight: bold;
+    color: grey;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 0px !important;
+
+   
+}
+.origin , .btn , .destination ,.detail , .distance {
+    /* border: solid 1px black; */
+}
+.origin ,  .destination {
+    height: 15%;
+    width: 67%;
+    border: 0px !important;
+}
+.btn {
+    height: 11%;
+    width: 70%;
+}
+.detail , .distance {
+    height: 5%;
+    border: 0px !important;
+}
+
+.calculatebtn{
+    background-color: rgb(5, 5, 137);
+    color: whitesmoke;
+    width: 25%;
+    height: 100%;
+    border-radius: 30px;
+    font-weight: bold;
+    float: right !important;
+
+}
+.distance {
+    width: 65%;
+    background-color: white;
+    font-weight: bold;
+    color: grey;
+    font-size: larger;
+    margin-top: 35px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.disvalue {
+    float: right;
+    color: #4747e3;
+}
+.detail {
+    height: 5%;
+    font-weight: bold;
+    color: grey;
+    font-size: small;
+    margin-top: 35px;
+    padding: 20px;
+    padding-left: 50px;
+    border-radius: 10px;
+    /* border: solid 1px gray !important; */
+     width: 63%;
+}
