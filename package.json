@@ -2,6 +2,7 @@
   "name": "grave",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://MannyP31.github.io"
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -39,4 +40,4 @@
   }
 }
 
-"homepage": "https://MannyP31.github.io"
+
